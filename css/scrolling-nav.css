@@ -1,0 +1,315 @@
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+body {
+    height: 100%;
+	width: 100%;
+	background: url('images/pattern.svg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	font-family: 'Roboto', sans-serif;
+			color: #534d4d;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-default .navbar-nav .li .a {
+  #0d0d0d;
+}
+
+.cvimg {	
+    height: 650px;
+	vertical-align: middle;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+@media screen and (min-width: 480px) {
+    .navbar {
+        padding: 0px 0;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+		  background: rgba(255, 255, 255, 0.4);
+	    border: 0px;
+		font-weight: 600;
+    }
+
+    .top-nav-collapse {
+        padding: 15 px;
+    }
+	
+	.intro {
+        height: 100%;
+        padding: 40px;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 100px;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 26px;
+    }
+	
+}
+
+@media screen and (max-width: 720px){
+	.cvimg {		
+    height: 525px;
+	vertical-align: middle;
+}
+
+.box
+{
+ background: rgba(255, 255, 255, 0.7);
+}	
+	
+}
+
+@media screen and (max-width: 480px){
+	.cvimg {		
+    height: 375x;
+	vertical-align: middle;
+	
+}
+.box
+{
+ background: rgba(255, 255, 255, 0.7);
+}	
+}
+
+@media screen and (max-width: 1080px){
+.box
+{
+ width: 300px;
+ margin: 50%;
+ position:relative;
+ background: rgba(255, 255, 255, 0.7);
+}	
+}
+
+
+
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+
+
+.intro {
+    display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+	color: #534d4d
+	text-align: centre;
+}
+
+.intro .intro-body {
+    display: table-cell;
+    vertical-align: middle;
+	text-align: centre;
+}
+
+.intro .intro-body .brand-heading {
+	text-align: centre;
+}
+
+.intro .intro-body .intro-text {
+    font-size: 18px;
+	text-align: centre;
+}
+
+
+.service-section .service-body {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.about-section {
+    height: 100%;
+    text-align: center;
+	 vertical-align: middle;
+	     padding: 100px 0;
+
+}
+
+.services-section {
+   display: table;
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+    text-align: center;
+
+
+}
+
+.contact-section {
+    height: 100%;
+    text-align: center;
+	vertical-align: middle;
+	    padding: 100px 0;
+ 
+}
+
+
+.headline-section .headline
+{
+	display: table-cell;
+    vertical-align: middle;
+
+}
+
+.headline-section .headline .heading h1 {
+    font-size: 100px;
+}
+
+
+.intro-section.headline.headline h2 {
+    font-size: 77px;
+}
+
+.headline h3 {
+    font-size: 24px;
+
+}
+
+h1{
+	font-size: 48px;
+	text-align: centre;
+}
+
+h2{
+	font-size: 36px;
+	text-align: centre;
+}
+
+h3{
+	font-size: 24px;
+	text-align: centre;
+}
+
+h4{
+	font-size: 18px;
+	text-align: centre;
+}
+
+p {
+	font-weight: 600;
+	font-size: 13px;
+	
+
+}
+
+.box{
+ background: rgba(255, 255, 255, 0.5);
+ width: 300px;
+ margin: 100px;
+}
+
+
+
+.text-box
+{
+  margin:8px;
+}
+
+.text-box p
+{
+	
+  margin-top: 20px;
+  padding-bottom: 20px;
+  text-align: left;
+}
+
+.text-box h3
+{
+padding-top: 10px;
+  text-align: right;
+}
+
+.text-box h4
+{
+	font-size: 12px;
+	text-align: right;
+	font-weight: 600;
+	color: grey;
+	
+}
+
+.fa.main
+{
+  
+  color: #534d4d; 
+   padding-top: 45px;
+   font-size: 95px;
+}
+
+.container{
+	width:  60%;
+}
+
+img.box.small-pic {
+	height: 65px;
+	width: auto;
+	position:absolute;
+	left: 10px;
+	top: -5px;
+	border: 3px solid #fff;
+  -webkit-box-shadow: 3px 3px 3px #777;
+     -moz-box-shadow: 3px 3px 3px #777;
+          box-shadow: 3px 3px 3px #777;
+}
+
+.formbox
+{
+	padding: 15px;
+	}
+	
+	.contact-list {
+	color: #534d4d; 
+	display: table;
+    table-layout: fixed;
+    width: 100%;
+	font-size: 16px;
+	list-style-type: none;
+	text-align: left;
+	font-weight: 600;
+	
+}
+	
+	}
+	
+	.contact-list.contact-list-item{
+		
+		display: table-row;	
+	}
+	
+	.fa.contact
+{
+  color: #534d4d; 
+   font-size: 28px;
+   margin: 8px;
+}
+	
+
+
