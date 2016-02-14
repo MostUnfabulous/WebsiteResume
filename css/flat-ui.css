@@ -1268,7 +1268,6 @@ input[type="search"] {
   -webkit-appearance: none !important;
 }
 label {
-  font-weight: normal;
   font-size: 15px;
   line-height: 2.3;
 }
