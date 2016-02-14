@@ -41,7 +41,7 @@ html {
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
         -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
         transition: background .5s ease-in-out,padding .5s ease-in-out;
-		  background: rgba(255, 255, 255, 0.4);
+		  background: rgba(255, 255, 255, 0.2);
 	    border: 0px;
 		font-weight: 600;
     }
@@ -57,6 +57,7 @@ html {
 
     .intro .intro-body .brand-heading {
         font-size: 100px;
+		font-weight:100;
     }
 
     .intro .intro-body .intro-text {
@@ -216,6 +217,7 @@ h4{
 p {
 	font-weight: 600;
 	font-size: 13px;
+				color: #534d4d;
 	
 
 }
@@ -231,6 +233,7 @@ p {
 .text-box
 {
   margin:8px;
+  			color: #534d4d;
 }
 
 .text-box p
@@ -283,6 +286,11 @@ img.box.small-pic {
 .formbox
 {
 	padding: 15px;
+	color: #534d4d;
+	font-weight: 600;
+	display: table;
+	
+
 	}
 	
 	.contact-list {
@@ -290,10 +298,10 @@ img.box.small-pic {
 	display: table;
     table-layout: fixed;
     width: 100%;
-	font-size: 16px;
 	list-style-type: none;
 	text-align: left;
 	font-weight: 600;
+	font-size: 28px;
 	
 }
 	
