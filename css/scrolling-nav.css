@@ -28,9 +28,6 @@ html {
 .cvimg {
     height: 650px;
     vertical-align: middle;
-    -webkit-box-shadow: 2px 2px 2px #777;
-    -moz-box-shadow: 2px 2px 2px #777;
-    box-shadow: 2px 2px 2px #777;
 }
 
 .label {
@@ -326,6 +323,18 @@ margin: 0px;
 	.footer h3 {
 		margin: 3px; 
 		font-size: 18px;
+		
+	}
+	
+	.portfolio
+	
+	{
+		
+		display: table-cell;
+    vertical-align: middle;
+    text-align: centre;
+		
+		
 		
 	}
 
