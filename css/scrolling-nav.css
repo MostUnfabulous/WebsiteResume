@@ -15,6 +15,7 @@ body {
     -o-background-size: cover;
     font-family: 'Roboto',sans-serif;
     color: #534d4d;
+	
 }
 
 html {
@@ -75,6 +76,10 @@ html {
     .box {
         background: rgba(255,255,255,0.7);
     }
+	
+.container.port{
+	width: 100%;
+}
 }
 
 @media screen and (max-width: 480px) {
@@ -82,6 +87,10 @@ html {
         height: 375px;
         vertical-align: middle;
     }
+.container.port{
+	width: 100%;
+}
+
 
     .box {
         background: rgba(255,255,255,0.7);
@@ -91,10 +100,14 @@ html {
 @media screen and (max-width: 1080px) {
     .box {
         width: 300px;
-        margin: 50%;
-        position: relative;
+        margin: 50%;        
         background: rgba(255,255,255,0.7);
     }
+	
+	.container.port{
+	width: 100%;
+	margin:0;
+}
 }
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
@@ -201,30 +214,32 @@ p {
 
 .box {
     background: rgba(255,255,255,0.5);
-    width: 300px;
-    margin: 100px;
+    width: 20em;
+    margin: 5em;
+	position: relative;
 }
 
 .text-box {
-    margin: 8px;
+
+	padding: 1em;
     color: #534d4d;
 }
 
 .text-box p {
-    margin-top: 20px;
-    padding-bottom: 20px;
-    text-align: left;
+    text-align: justify;
 }
 
 .text-box h3 {
-    padding-top: 10px;
+
     text-align: right;
+	margin:0em;
 }
 
 .text-box h4 {
     font-size: 12px;
     text-align: right;
     font-weight: 600;
+	
     color: grey;
 }
 
@@ -236,14 +251,18 @@ p {
 
 .container {
     width: 60%;
+	left: 20px;
 }
 
+.container.port{
+}
 img.box.small-pic {
     height: 65px;
     width: auto;
-    position: absolute;
-    left: 10px;
-    top: -5px;
+	left: -0.3em;
+	top: -0.3em;
+	margin: 0px;
+	position: absolute;
     border: 3px solid #fff;
     -webkit-box-shadow: 3px 3px 3px #777;
     -moz-box-shadow: 3px 3px 3px #777;
@@ -326,16 +345,6 @@ margin: 0px;
 		
 	}
 	
-	.portfolio
-	
-	{
-		
-		display: table-cell;
-    vertical-align: middle;
-    text-align: centre;
-		
-		
-		
-	}
+
 
 	
